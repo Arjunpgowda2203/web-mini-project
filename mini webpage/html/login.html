@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-color:rgb(8, 3, 77);
+            background-image: url(data:image/png;base64,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);
+            background-attachment: fixed;
+          
+            background-size: cover;
+        }
+        .bg{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+            
+
+            
+        div{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-top-left-radius:20px;
+            border-bottom-right-radius: 20px;
+            width:500px;
+            height:300px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style=><center>LOGIN PAGE</center></h1>
+    <hr style="padding:0px 20px 0px 20px">
+    <section class="bg">
+    <div style="background-image:linear-gradient(rgb(239, 159,12),whitesmoke);">
+    <form action="">
+        <fieldset style="padding:40px;border-color: whitesmoke;color: whitesmoke;">
+            <legend ><B><I>Log in</I></B></legend>
+            <label for="username"><b>Username:</b></label>
+            <input type="text" name="data" id="username" placeholder="username" style="padding-left: 80px;"><br><br><br>
+            <label for="Password"><b>Password:</b></label>
+            <input type="password" name="data" id="Password" placeholder="password" style="padding-left: 80px;"><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button style="background-color:whitesmoke;">submit</button>
+            <button style="background-color:whitesmoke;">cancel</button>
+            </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
